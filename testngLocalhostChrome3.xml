@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite allow-return-values="false" annotations="JDK" configfailurepolicy="skip" data-provider-thread-count="1" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Chrome Suite" parallel="classes" preserve-order="true" skipfailedinvocationcounts="false" thread-count="2" verbose="10">
+<parameter name="HostName" value="localhost"/>
+<parameter name="Port" value="4454"/>
+<parameter name="Browser" value="*chrome"/>
+<parameter name="URL" value="https://angular.io/guide/testing/"/>
+<test allow-return-values="true" group-by-instances="false" junit="false" name="ChromeTests" preserve-order="false" skipfailedinvocationcounts="false">
+<classes>
+<class name="com.test.AllTest"/>
+</classes>
+</test>
+</suite>

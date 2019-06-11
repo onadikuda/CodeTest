@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestSteps>
+<StepName name="LaunchSite">
+<step acomponent="NA" bAction="Wait" cExpectedValue="3000"/>
+<step acomponent="BaseURL" bAction="Open" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="HTTPSection">
+<step acomponent="Fundamentals" bAction="Click" cExpectedValue="NA"/>
+<step acomponent="TowardsHTTPClient" bAction="ClickAndWait" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="ScrollAndSearch">
+<step acomponent="Interceptor" bAction="Scroll" cExpectedValue="NA"/>
+<step acomponent="InterceptorLink" bAction="MouseOver" cExpectedValue="NA"/>
+<step acomponent="Search" bAction="EnterSetOfValues" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="HomeAndFilter">
+<step acomponent="WebFx" bAction="Open" cExpectedValue="NA"/>
+<step acomponent="WebFxdropdown" bAction="Select" cExpectedValue="/blog/web-design/"/>
+</StepName>
+
+<StepName name="BrowseFeatureAndEdit">
+<step acomponent="CliCommand" bAction="ClickAndWait" cExpectedValue="NA"/>
+<step acomponent="xi18n" bAction="ClickAndWait" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="ViewAndCopy">
+<step acomponent="viewsourceforcli" bAction="ClickAndNav" cExpectedValue="https://github.com/angular/angular-cli/blob/v7.3.0-rc.0/packages/angular/cli/commands/xi18n.json"/>
+<step acomponent="copypath" bAction="ClickAndWait" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="NavigateBack">
+<step acomponent="GoBack" bAction="MoveBack" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="PasteAndSearch">
+<step acomponent="Search" bAction="Click" cExpectedValue="NA"/>
+<step acomponent="NA" bAction="Paste" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="CloseSession">
+<step acomponent="NA" bAction="Close" cExpectedValue="NA"/>
+</StepName>
+
+<StepName name="VideoTest">
+<step acomponent="YoutubeHome" bAction="Open" cExpectedValue="NA"/>
+<step acomponent="TextInYoutube" bAction="Enter" cExpectedValue="Hitachi Consulting"/>
+<step acomponent="YoutubeSelectVideo" bAction="Click" cExpectedValue="HitachiConsultingTV"/>
+<step acomponent="PausePlayer" bAction="Pause" cExpectedValue="NA"/>
+</StepName>
+
+</TestSteps>
